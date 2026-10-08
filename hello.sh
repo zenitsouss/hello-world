@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-echo "Hello world"
+read -p "c quoi ton blase? : " variable 
+echo "cc $variable"
