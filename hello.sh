@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
-read -p "c quoi ton blase? : " variable 
-echo "cc $variable"
+if [ $# == 1 ]; then
+	echo " cc $1"
+elif [ $# == 2 ]; then
+	echo " cc $1 et $2"
+else [ $# == 3 ];
+	echo "cc tt le monde"
+fi
